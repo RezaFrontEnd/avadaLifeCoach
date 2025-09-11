@@ -188,8 +188,8 @@
     height: 410px;
     display: flex;
     padding:20px;
-    background-image:url(../image/hero-graphic-3.jpg);
     background-size:cover;
+
     >div
     {
       width: 100%;
@@ -208,11 +208,13 @@
         {
           padding:40px 0 10px 20px;
           font-size: 33px;
+          color:rgb(59,58,100)
         }
         >p
         {
           padding:15px 30px 30px 20px ;
           font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+          color:rgb(59,58,100)
 
         }
         >div
@@ -238,7 +240,6 @@
       {
         width: 50%;
         margin:35px 50px 0 0;
-       
         >figure
         {
           
@@ -252,11 +253,120 @@
         }
       }
     }
-
-    
+  }
+  >.bg-image
+  {
+    background-image:url(../image/hero-graphic-3.jpg);
+  }
+  >.bg-color
+  {
+    background-color:white;
   }
 }
 /* end of cart2 */
 
 
 /* start cart3 */
+.row
+{
+  >.cart3
+  {
+    width: 100%;
+    height: 410px;
+    display: flex;
+    padding:20px;
+    background-size:cover;
+
+    >div
+    {
+      width: 100%;
+      height: 100%;
+      /* border:1px solid black; */
+      display: flex;
+      /* background-color:rgb(252,247,246); */
+
+      >:first-of-type
+      {
+        width: 50%;
+        height: 350px;
+        margin:5px;
+        /* border:1px solid purple; */
+        >h2
+        {
+          padding:40px 0 10px 20px;
+          font-size: 40px;
+          color:rgb(59,58,100)
+        }
+        >p
+        {
+          padding:15px 30px 30px 20px ;
+          font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+          color:rgb(59,58,100);
+
+        }
+        >div
+        {
+          width: 150px;
+          height: 40px;
+          background-color:rgb(241,100,43);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-left:20px;
+          margin-top: 30px;
+          >a
+          {
+            color:white;
+            border-radius: 15px;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            font-size: 15px;
+            
+          }
+        }
+      }
+      >:last-of-type
+      {
+        width: 50%;
+        margin:35px 50px 0 0;
+        position: relative;
+        
+        >figure
+        {
+          display: flex;
+          padding:10px;
+           :nth-child(1)
+           {
+             width: 50%;
+            object-fit:cover;
+            border-radius: 5px;
+            position:absolute;
+            top: 70px;
+            left:100px;
+            z-index:5;
+            
+           }
+           :nth-child(2)
+           {
+             width: 50%;
+             object-fit:cover;
+             border-radius: 5px;
+             position:absolute;
+             right:20px;
+             top:10px;
+           }
+           
+         
+        }
+       
+      }
+    }
+  }
+  >.bg-image
+  {
+    background-image:url(../image/hero-graphic-3.jpg);
+  }
+  >.bg-color
+  {
+    background-color:white;
+  }
+}
