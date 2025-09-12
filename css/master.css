@@ -987,7 +987,11 @@ footer {
         width: 50%;
         margin:35px 50px 0 0;
         position: relative;
+<<<<<<< HEAD
  
+=======
+        
+>>>>>>> origin
         >figure
         {
           display: flex;
@@ -1028,6 +1032,7 @@ footer {
     background-color:white;
   }
 }
+<<<<<<< HEAD
 .row
 {
   >.row
@@ -1061,3 +1066,5 @@ footer {
 }
 /* end main */
 
+=======
+>>>>>>> origin
